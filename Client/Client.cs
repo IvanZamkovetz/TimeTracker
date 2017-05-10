@@ -11,6 +11,7 @@ namespace Client
 {
     public class Server
     {
+
         public NamedPipeClientStream pipeClient;
         string pipeName;
         int pipeBufSize;
